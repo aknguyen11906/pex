@@ -15,14 +15,28 @@
 	background-size: cover;
 }
 
-#search{
-	border-radius: 25px;
-    border: 1px solid gray;
-    background-color: white;
-    margin-top:10px;
-    width: 90%;
+
+.left-inner-addon {
+    position: relative;
 }
-.inputSearch{
-	border:0px;background:transparent;
-	padding-left:10px;
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
 }
